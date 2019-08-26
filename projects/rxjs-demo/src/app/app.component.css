@@ -1,0 +1,12 @@
+section {
+    display: flex
+}
+nav {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    margin-top: 40px; 
+    margin-left: 40px;
+}

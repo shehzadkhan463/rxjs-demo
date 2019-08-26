@@ -1,0 +1,11 @@
+<div>
+  <button (click)="filterCars()">Cars &gt; 10000</button>
+</div>
+<div>
+  <strong>All Cars</strong>
+  {{ cars | json }}
+</div>
+<div *ngIf="filteredCars">
+  <strong>Filtered Cars</strong>
+  {{ filteredCars | json }}
+</div>

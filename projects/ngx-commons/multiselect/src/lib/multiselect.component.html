@@ -1,0 +1,8 @@
+<div class="ngx-select-trigger" cdkOverlayOrigin (click)="toggle()" #overlayOrigin="cdkOverlayOrigin">
+    open
+</div>
+<ng-template cdkConnectedOverlay [cdkConnectedOverlayOpen]="isOpen" [cdkConnectedOverlayOrigin]="overlayOrigin">
+    <ul class="ngx-select-list">
+        <li *ngFor="let item of items" >{{ item.value }}</li>
+    </ul>
+</ng-template>

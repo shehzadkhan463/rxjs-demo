@@ -1,0 +1,7 @@
+<form [formGroup]="selectForm">
+    <ngx-multiselect [items]="list" formControlName="team" [configurations]="teamConfig"></ngx-multiselect>
+    <ngx-multiselect formControlName="league" [configurations]="teamConfig">
+        <ng-container *ngxGetOptions>Liga BBVA</ng-container>
+    </ngx-multiselect>
+</form>
+

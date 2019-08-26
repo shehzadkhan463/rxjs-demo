@@ -1,0 +1,14 @@
+.ngx-select-trigger {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+.ngx-select-list {
+    background: #fff;
+    padding: 5px;
+    li {
+        padding: 10px;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
